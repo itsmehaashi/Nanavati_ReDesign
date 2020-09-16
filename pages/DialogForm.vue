@@ -4,6 +4,7 @@
     <v-tabs>
       It Worked!
     Finally all the text is working.
+    <DialogForm/>
     </v-tabs>
     </v-content>
   </div>
