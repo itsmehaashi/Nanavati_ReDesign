@@ -2,7 +2,7 @@
   <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
-    src="Nanavati-Logo.png"
+    src="vnanavati-logo.png"
   >
 </template>
 

@@ -3,10 +3,14 @@
   <v-app id="inspire">
     
     <!--Header -->
-    <v-app-bar color="red" dark fixed app>
-      <v-toolbar-title>Application</v-toolbar-title>
+    <NVTab/>
+    <Breadcrumb/>
+    <v-app-bar color= "Light purple" dark fixed app>
+      <v-toolbar-title></v-toolbar-title>
        <!-- Component Example -->
+       
       <VuetifyLogo/>
+     
     </v-app-bar>
 
     <!-- Body -->
@@ -15,7 +19,7 @@
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="indigo" app>
+    <v-footer color="Light purple" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
 
@@ -33,6 +37,6 @@ export default {}
 
    #inspire {
     background-color: white;
-    color: black;
+    color: white;
   }
 </style>
