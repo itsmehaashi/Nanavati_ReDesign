@@ -3,8 +3,8 @@
     <v-content>
     
     
-    <NVTab/>
-    <Breadcrumb/>
+    
+    
     <Accordion/>
     </v-content>
   </div>

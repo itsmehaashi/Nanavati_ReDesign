@@ -1,17 +1,28 @@
 <template>
   <v-card>
     <v-toolbar
-      color="cyan"
+      color="#C0C0C0"
       dark
       flat
+      <img
+        src="Nanavati-Logo.png"
+        width='125'
+        height='135'
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+    
+      <v-app-bar-nav-icon>
+      
+    </v-app-bar-nav-icon>
 
-      <v-toolbar-title>Page title</v-toolbar-title>
+      <v-toolbar-title>
+      
+    </v-toolbar-title>
 
       <v-spacer></v-spacer>
 
       <v-btn icon>
+       
+       
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
 
@@ -42,8 +53,9 @@
         :key="i"
         :value="`tab-${i}`"
       >
-        <v-card flat>
-          <v-card-text v-text="text"></v-card-text>
+       <v-card flat>
+    
+
         </v-card>
       </v-tab-item>
     </v-tabs-items>

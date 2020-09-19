@@ -1,12 +1,22 @@
 <template>
   <!--Your App Starts Here -->
   <v-app id="inspire">
+
     
     <!--Header -->
-    <NVTab/>
+    
+    <img
+   
+    src="Nanavati-Logo.png"
+    width='135'
+    height='150' 
+  >
+    <Ntab/>
     <Breadcrumb/>
-    <v-app-bar color= "Light purple" dark fixed app>
-      <v-toolbar-title></v-toolbar-title>
+    
+   
+      <v-toolbar-title>
+    </v-toolbar-title>
        <!-- Component Example -->
        
       <VuetifyLogo/>
