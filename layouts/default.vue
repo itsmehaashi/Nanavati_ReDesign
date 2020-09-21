@@ -5,13 +5,10 @@
     
     <!--Header -->
     
-    <img
-   
-    src="Nanavati-Logo.png"
-    width='135'
-    height='150' 
+    
   >
-    <Ntab/>
+  
+   <SuperFinalHeader/>
     <Breadcrumb/>
     
    
@@ -19,7 +16,7 @@
     </v-toolbar-title>
        <!-- Component Example -->
        
-      <VuetifyLogo/>
+      
      
     </v-app-bar>
 
@@ -29,9 +26,70 @@
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="Light purple" app>
-      <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+    <ChatBot1/> 
+    <v-speed-dial
+      v-model="fab"
+      :top="top"
+      :bottom="bottom"
+      :right="right"
+      :left="left"
+      :direction="direction"
+      :open-on-hover="hover"
+      :transition="transition"
+    >
+    </v-speed-dial>
+    
+    
+    <template>
+  <v-footer
+    dark
+    padless
+  >
+    <v-card
+      flat
+      tile
+      class="deep purple white--text text-center"
+    >
+      <v-card-text>
+        <v-btn
+          v-for="icon in icons"
+          :key="icon"
+          class="mx-4 white--text"
+          icon
+        >
+          <v-icon size="24px">{{ icon }}</v-icon>
+        </v-btn>
+      </v-card-text>
+
+      <v-card-text class="white--text pt-0">
+       Dr. Balabhai Nanavati Hospital, S.V. Road, Vile Parle (West), Mumbai 400 056, India.Tel:+91 22 6836 0000.24 Hrs helpline: +91 22 2626 7500.Email:marketing@nanavatihospital.org.About Nanavati Hospital. Leeadership.Newsroom.
+
+
+
+
+      </v-card-text>
+
+      <v-divider></v-divider>
+
+      <v-card-text class="white--text">
+        {{ new Date().getFullYear() }} — <strong></strong>
+      </v-card-text>
+    </v-card>
+  </v-footer>
+</template>
+
+<script>
+  export default {
+    data: () => ({
+      icons: [
+        'mdi-facebook',
+        'mdi-twitter',
+        'mdi-linkedin',
+        'mdi-instagram',
+      ],
+    }),
+  }
+</script>
 
   </v-app>
 </template>

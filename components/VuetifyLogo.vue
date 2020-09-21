@@ -1,5 +1,5 @@
 <template>
-<!--  <img
+  <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
     src="Nanavati-Logo.png"
@@ -8,8 +8,8 @@
 
 <style>
 .VuetifyLogo {
-  height: 50px;
-  width: 50px;
+  height: 170px;
+  width:190 px;
 }
-</style>
+</style>>
 

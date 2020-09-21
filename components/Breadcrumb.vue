@@ -21,7 +21,12 @@
         },
         {
           text: 'Specialty Centre',
-          disabled: true,
+          disabled: false,
+          href: 'breadcrumbs_link_2',
+        },
+         {
+          text: 'Neuro-Endoscopy Treatment Unit',
+          disabled: false,
           href: 'breadcrumbs_link_2',
         },
       ],

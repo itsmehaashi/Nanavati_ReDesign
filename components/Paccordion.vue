@@ -12,10 +12,10 @@
         
         >
           <!--Know your doctor accordion starts-->
-            <v-expansion-panel-header>Know Your Doctor</v-expansion-panel-header>
+            <v-expansion-panel-header>Patient reviews</v-expansion-panel-header>
             
             <v-expansion-panel-content>
-            <FinalCards/>
+            <ReviewList/>
             
             
           
@@ -26,3 +26,4 @@
       </v-expansion-panels>
     </v-row>
   </template>
+
