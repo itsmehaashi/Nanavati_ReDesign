@@ -14,7 +14,7 @@
     </p>
     </strong> -->
     </v-row>
-    
+    <!--Buttons start here-->
     <v-row>
     
 
@@ -30,7 +30,7 @@
      <v-col  cols="6"md="1" sm="4"><v-btn  tile color="white" dark> <strong class="pink--text text--darken-4 ">Sign In</strong></v-btn></v-col>
     
 </v-row>
-    
+   <!--Buttons end here--> 
 
       <template v-slot:extension>
       
@@ -39,7 +39,7 @@
           
           class="pa-mx-12 "
         >
-        
+       <!--3 tabs nav bar starts here--> 
         <v-spacer> </v-spacer>
         
         
@@ -50,7 +50,7 @@
           
         </v-tabs>
         
-
+<!--search bar-->
         <v-text-field
         append-icon="mdi-magnify grey lighten-1"
         class="grey darken-1"
