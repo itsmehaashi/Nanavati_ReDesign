@@ -15,7 +15,7 @@
             <v-expansion-panel-header>Patient reviews</v-expansion-panel-header>
             
             <v-expansion-panel-content>
-            <ReviewList/>
+            <Avatars/>
             
             
           

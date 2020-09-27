@@ -1,33 +1,4 @@
-<template>
-  <!--Your App Starts Here -->
-  <v-app id="inspire">
-
-    
-    <!--Header -->
-    
-    
-  >
-  
-   <SuperFinalHeader/>
-    
-    
-   
-      <v-toolbar-title>
-    </v-toolbar-title>
-       <!-- Component Example -->
-       
-      
-     
-    </v-app-bar>
-
-    <!-- Body -->
-    <v-content light>
-      <nuxt /> 
-    </v-content>
-    
-    <!-- Footer -->
-    <ChatBot1/> 
-    <v-speed-dial
+<v-speed-dial
       v-model="fab"
       :top="top"
       :bottom="bottom"
@@ -41,6 +12,7 @@
     
     
     <template>
+   
   <v-footer
     dark
     padless
@@ -76,8 +48,8 @@
         {{ new Date().getFullYear() }} — <strong></strong>
       </v-card-text>
     </v-card>
-    </v-card>
   </v-footer>
+  
 </template>
 
 <script>
@@ -110,3 +82,4 @@ export default {}
     color: white;
   }
 </style>
+

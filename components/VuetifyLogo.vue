@@ -2,14 +2,14 @@
   <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
-    src="Nanavati-Logo.png"
+    src="Nlogo.jpg"
   >
 </template>
 
 <style>
 .VuetifyLogo {
-  height: 170px;
-  width:190 px;
+  height: 172px;
+  width:350px;
 }
 </style>>
 

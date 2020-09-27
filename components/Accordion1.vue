@@ -1,4 +1,5 @@
  <template>
+ 
     <v-row justify="center">
       <v-expansion-panels accordion
       v-model="panel"
@@ -16,7 +17,7 @@
             <v-expansion-panel-content>
            The Centre for Neurosciences has a dedicated Neuro-endoscopy Surgery Unit, which provides the most comprehensive quality care for patients suffering from a variety of neurological conditions such as brain injury or diseases, brain haemorrhage, head injury, brain tumours, hydrocephalus, nerve injuries and various congenital malformations like atlantoaxial dislocation, etc.
            <li> The unit is well equipped with state-of-the-art diagnostic and therapeutic procedures to treat complex neurology diseases and conditions without the need for other implants or fixations. Some of the diagnostic techniques we use to evaluate the patient’s current medical condition involved:</br>
-           <li>MRI</br>
+           <p class="font-weight-bold"><li>MRI</br></p>
 <li>CT scan</br>
 <li>Genetic Molecular testing of the tumour</li>
 <li>Electroencephalography (EEG)/ Video EEG</li>

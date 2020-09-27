@@ -29,7 +29,7 @@
       <v-btn
         color="purple"
         text
-        @click.stop="dialog = true"
+        @click.stop="dialog = false"
       >
        MORE
     </v-btn>

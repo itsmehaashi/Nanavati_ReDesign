@@ -1,5 +1,8 @@
   <template>
-    <v-row justify="center">
+  
+    <v-row justify="center" >
+    
+    
       <v-expansion-panels accordion
       v-model="panel"
       light
@@ -15,7 +18,7 @@
             <v-expansion-panel-header>Know Your Doctor</v-expansion-panel-header>
             
             <v-expansion-panel-content>
-            <FinalCards/>
+            <TransitionCardTrial/>
             
             
           
@@ -24,5 +27,7 @@
 
         
       </v-expansion-panels>
+     
     </v-row>
+    
   </template>

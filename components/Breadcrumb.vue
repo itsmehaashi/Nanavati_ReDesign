@@ -1,8 +1,16 @@
 <template>
+<v-row>
+<caption>
   <div>
-    <v-breadcrumbs :items="items"></v-breadcrumbs>
+    <v-breadcrumbs :items="items">
+    <template v-slot:divider>
+        <v-icon color="#757575">mdi-chevron-right</v-icon>
+      </template>
+      </v-breadcrumbs>
 
   </div>
+  </caption>
+  </v-row>
 </template>
 
 <script>

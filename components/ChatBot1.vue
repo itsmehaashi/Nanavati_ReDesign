@@ -1,7 +1,7 @@
 <template v-slot:activator>
         <v-btn
           v-model="fab"
-          color="purple"
+          color="pink darken-4"
           dark
           fab
         >
