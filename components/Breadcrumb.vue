@@ -2,6 +2,7 @@
 <v-row>
 <caption>
   <div>
+  <!--Breadcrumbs not static//start here -->
     <v-breadcrumbs :items="items">
     <template v-slot:divider>
         <v-icon color="#757575">mdi-chevron-right</v-icon>
@@ -12,7 +13,7 @@
   </caption>
   </v-row>
 </template>
-
+<!--Titles-->
 <script>
   export default {
     data: () => ({

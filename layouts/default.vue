@@ -41,7 +41,7 @@
     
     
     <template>
-  <v-footer
+ <!-- <v-footer
     dark
     padless
   >
@@ -77,7 +77,8 @@
       </v-card-text>
     </v-card>
     </v-card>
-  </v-footer>
+  </v-footer>-->
+  <FooterNew/>
 </template>
 
 <script>

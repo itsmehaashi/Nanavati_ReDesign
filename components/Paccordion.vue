@@ -1,5 +1,7 @@
   <template>
+  <!--3rd accordion start-->
     <v-row justify="center">
+    <!--bolean-->
       <v-expansion-panels accordion
       v-model="panel"
       light

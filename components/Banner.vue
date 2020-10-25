@@ -1,5 +1,5 @@
   <template>
-
+<!--banner with og image from xd added-->
     <v-col cols="12" md="12">  
               <v-card
               class="ma-0 px-0 mt="4"

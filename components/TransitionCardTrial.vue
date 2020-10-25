@@ -9,7 +9,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Oak.jpg"
       >
         <v-expand-transition>
@@ -68,7 +68,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Neeta.jpg"
       >
         <v-expand-transition>
@@ -128,7 +128,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Rajan.jpg"
       >
         <v-expand-transition>
@@ -187,7 +187,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Sawant.jpg"
       >
         <v-expand-transition>
@@ -247,7 +247,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Abhishek.jpg"
       >
         <v-expand-transition>
@@ -304,7 +304,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Amandeep.jpg"
       >
         <v-expand-transition>
@@ -361,7 +361,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="KC.jpg"
       >
         <v-expand-transition>
@@ -418,7 +418,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Mihir.jpg"
       >
         <v-expand-transition>
@@ -480,7 +480,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Nikhil.jpg"
       >
         <v-expand-transition>
@@ -538,7 +538,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Anil.jpg"
       >
         <v-expand-transition>
@@ -595,7 +595,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Harshad.jpg"
       >
         <v-expand-transition>
@@ -652,7 +652,7 @@
       color="white"
     >
       <v-img
-        :aspect-ratio="8/9"
+        :aspect-ratio="12/14"
         src="Sunanda.jpg"
       >
         <v-expand-transition>

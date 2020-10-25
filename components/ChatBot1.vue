@@ -1,4 +1,5 @@
 <template v-slot:activator>
+<!--unactivated//alignment and color-->
         <v-btn
           v-model="fab"
           color="pink darken-4"

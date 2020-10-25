@@ -7,27 +7,30 @@
       prominent
     >
     <v-row>
+    <v-col cols="12" sm="2" md"4">
     <VuetifyLogo/>
      <!--<strong class="black--text ">
     <p class="text-right">
     Patient Portal
     </p>
     </strong> -->
+    </v-col>
     </v-row>
     <!--Buttons start here-->
     <v-row>
     
 
     
-     <v-col cols="5" md="3" sm="4"> <v-btn tile color="pink darken-4" dark > <strong class="white--text ">Quick Enquiry>></strong></v-btn></v-col> 
-     <v-col cols="5" md="4"sm="3"><v-btn tile color="white" dark> <strong class="pink--text text--darken-4 ">Book Appointment</strong></v-btn></v-col> 
+     <v-col cols="12" md="3" sm="5"> <v-btn tile color="pink darken-4" dark > <strong class="white--text ">Quick Enquiry>></strong></v-btn></v-col> 
+     <v-col cols="12" md="4"sm="7"><v-btn tile color="white" dark> <strong class="pink--text text--darken-4 ">Book Appointment</strong></v-btn></v-col> 
       <v-divider vertical
-      color="grey"
+      color="grey" 
+      class= "hidden-xs-only"
       >
       </v-divider>
-       <strong class="black--text ">Patient Portal </strong>
-     <v-col cols="6" md="2"sm="4"><v-btn  tile color="pink darken-4" dark><strong class="white--text ">Sign Up </strong></v-btn></v-col>
-     <v-col  cols="6"md="1" sm="4"><v-btn  tile color="white" dark> <strong class="pink--text text--darken-4 ">Sign In</strong></v-btn></v-col>
+      <v-col cols="12" sm="3"> <strong class="black--text ">Patient Portal </strong></v-col>
+     <v-col cols="12" md="2" sm="3"><v-btn  tile color="pink darken-4" dark><strong class="white--text ">Sign Up </strong></v-btn></v-col>
+     <v-col  cols="12"md="1" sm="5"><v-btn  tile color="white" dark> <strong class="pink--text text--darken-4 ">Sign In</strong></v-btn></v-col>
     
 </v-row>
    <!--Buttons end here--> 

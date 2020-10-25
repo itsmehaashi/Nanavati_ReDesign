@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-row justify="center">
       <v-subheader>By our dear patients</v-subheader>
-
+<!--opening and bolean-->
       <v-expansion-panels popout
       v-model="popout"
       light
@@ -16,7 +16,7 @@
           hide-actions
           
         >
-         
+         <!--spacing of panel-->
           <v-expansion-panel-header>
             <v-row
               align="center"
@@ -32,11 +32,11 @@
                 <v-avatar
                   size="36px"
                 >
-                
+                <!--Img change here of avatar-->
                   <img
                     v-if="message.avatar"
                     alt="Avatar"
-                    src=""
+                    src="Abhishek.jpg"
                     
                     
                   >
@@ -111,7 +111,7 @@
     data: () => ({
       messages: [
         {
-          avatar: 'https://avatars0.githubusercontent.com/u/9064066?v=4&s=460',
+          avatar: 'Anil.jpg',
           name: 'Mrs.Anjali Pawar',
           title: '3/5',
           excerpt: '"Very Experienced and learned. A true...."',

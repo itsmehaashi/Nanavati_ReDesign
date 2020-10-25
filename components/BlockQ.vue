@@ -1,5 +1,5 @@
 <template>
-
+<!--Main page tagline -->
 <blockquote class="blockquote" justify="center" >
            <!--<strong class="pink--text text--darken-4"> &#8220;Make differences with Trust. Compassion. Desdication..&#8221;-->
             <footer>

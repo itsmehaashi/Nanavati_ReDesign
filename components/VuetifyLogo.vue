@@ -8,8 +8,8 @@
 
 <style>
 .VuetifyLogo {
-  height: 172px;
-  width:350px;
+  height: 140px;
+  width:250px;
 }
 </style>>
 
